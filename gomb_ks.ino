@@ -6,7 +6,7 @@ int buttonState = 0;         //  button status
 int lastButtonState = 0;     // Az előző gomb állapota
 
 void setup() {
-  // Gomb pin beállítása bemeneti módra
+  // Gomb pin beállítása bemeneti módra !!!
   pinMode(buttonPin, INPUT);
   
   // Soros kommunikáció inicializálása
