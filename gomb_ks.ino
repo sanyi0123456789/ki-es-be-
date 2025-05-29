@@ -1,5 +1,5 @@
 // Pinok beállítása
-const int buttonPin = 2;     // A gomb pinje
+const int buttonPin = 2;     // button pin
 
 // Változók
 int buttonState = 0;         // A gomb állapota
