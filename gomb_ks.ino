@@ -1,12 +1,12 @@
 // Pinok beállítása
-const int buttonPin = 2;     // A gomb pinje
+const int buttonPin = 2;     // button pin
 
 // Változók
-int buttonState = 0;         // A gomb állapota
+int buttonState = 0;         //  button status
 int lastButtonState = 0;     // Az előző gomb állapota
 
 void setup() {
-  // Gomb pin beállítása bemeneti módra
+  // Gomb pin beállítása bemeneti módra !!!
   pinMode(buttonPin, INPUT);
   
   // Soros kommunikáció inicializálása
