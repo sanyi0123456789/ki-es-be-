@@ -10,7 +10,7 @@ void setup() {
   pinMode(buttonPin, INPUT);
   
   // Soros kommunikáció inicializálása
-  Serial.begin(9600);
+  Serial.begin(10000);
 }
 
 void loop() {
