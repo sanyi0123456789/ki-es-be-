@@ -21,9 +21,9 @@ void loop() {
   if (buttonState != lastButtonState) {
     // Ha a gomb meg lett nyomva (állapot változott LOW-ra)
     if (buttonState == HIGH) {
-      Serial.println("A gomb meg lett nyomva!");
+      Serial.println("A gomb le lett nyomva!");
     } else {
-      Serial.println("A gomb el van engedve!");
+      Serial.println("A gomb nem lett le nyomva!");
     }
     // Frissítjük az előző állapotot
     lastButtonState = buttonState;
